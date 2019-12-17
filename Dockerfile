@@ -29,7 +29,8 @@ RUN \
     python-pip \
     python3-pip \
     jq \
-    gcc \ 
+    gcc \
+    rsync \
     dnsutils && \
   pip install -U setuptools &&\
   echo "** Cleanup **" && \
